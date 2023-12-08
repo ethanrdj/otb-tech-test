@@ -1,0 +1,113 @@
+.holiday-card {
+  background-color: white;
+  width: 740px;
+  display: flex;
+  flex-direction: column;
+  font-family: $primaryFont; // TODO: move higher
+  line-height: 0;
+}
+
+.main-card-view {
+  display: flex;
+  position: relative;
+}
+
+.holiday-image {
+  width: 65%;
+}
+
+.read-more-toggle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  min-width: 200px;
+  padding: 0px 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  color: $blue;
+  font-size: 0.9em;
+  border: none;
+}
+
+.chevron-icon {
+  transition: transform 0.3s ease;
+}
+
+.chevron-icon.rotate {
+  margin-left: 8px;
+  transform: rotate(90deg);
+}
+.holiday-details {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+  height: fit-content;
+}
+
+.hotel-name {
+  color: $blue;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+}
+
+.hotel-location {
+  color: $lightGrey;
+  font-size: 0.8em;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  color: $grey;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+.book-button {
+  background-color: $yellow;
+  color: $blue;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 210px;
+  line-height: 0.5em;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.book-button div h1:nth-child(1) {
+  font-size: 1em;
+}
+
+.book-button div h1:nth-child(2) {
+  font-size: 2em;
+}
+
+.hotel-description {
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  height: 0;
+}
+.slide-down {
+  height: 120px;
+  padding: 10px 20px;
+}
+.hotel-description h3 {
+  color: $blue;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+}
+
+.hotel-description p {
+  color: $grey;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+}
