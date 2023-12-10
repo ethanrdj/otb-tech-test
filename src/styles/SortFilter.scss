@@ -1,0 +1,27 @@
+.sort-filter-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 200px;
+  background-color: white;
+  cursor: pointer;
+  color: $blue;
+}
+
+.sort-filter-item.selected {
+  color: white;
+  background-color: $blue;
+}
+
+.sort-filter-item:not(:last-child) {
+  border-bottom: 1px $blue solid;
+}
+
+.filter-icon {
+  color: $lightGrey;
+}
+
+.filter-icon.selected {
+  color: white;
+}

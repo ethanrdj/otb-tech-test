@@ -15,7 +15,7 @@ export const holidays: Holiday[] = [
     date: "3rd July 2019",
     stayDuration: 7,
     departureAirport: "East Midlands",
-    price: "1,136.50",
+    price: "1136.50",
     hotel: {
       ID: "1",
       starRating: 5,

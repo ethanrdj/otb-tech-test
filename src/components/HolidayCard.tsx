@@ -19,6 +19,7 @@ export const HolidayCard: FC<HolidayCardProps> = ({ holiday }) => {
           className="read-more-toggle"
           onClick={() => setShowMoreInfo(!showMoreInfo)}
           role="button"
+          data-testid="read-more-button"
         >
           <p>
             <strong>{showMoreInfo ? "Read less" : "Read more"}</strong> about
