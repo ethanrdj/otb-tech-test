@@ -17,6 +17,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 # On the Beach Frontend Software Engineer Code Test
 
+![image](https://github.com/ethanrdj/otb-tech-test/assets/83648061/325aa294-f868-4384-b01d-2857306dcee5)
+
+
 ## Project Overview
 
 This project is a client-side solution to represent a hotel listing based on the provided design (`design.png`). The implementation includes features such as sorting results by price (default), star rating, and hotel name. Additionally, it provides the ability to toggle the expanded hotel description.
